@@ -38,7 +38,7 @@ const Home = () => {
       <div className="flex justify-center items-center flex-wrap  gap-8">
         {logos.map((logo,index)=>(
           <div className="flex-1 flex  justify-center items-center" key={index}>
-            <img src={logo} alt="brand logo" className="min-w-[100px] max-w-[130px] object-contain"  />
+            <img src={logo} alt="brand logo" className="min-w-[100px] max-w-[130px] object-cover"  />
           </div>
         ))}
       </div>
