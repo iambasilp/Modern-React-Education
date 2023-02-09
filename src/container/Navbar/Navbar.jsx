@@ -23,7 +23,7 @@ const Navbar = () => {
               onClick={() => {
                 setToggle(true);
               }}
-            />
+            />  
             <div className="text-xl text-Teal uppercase tracking-wide font-bold">
               Skillex
             </div>
